@@ -1,0 +1,12 @@
+<view class='page-register'>
+    <image src='/static/icon/logo.png' class='logo'></image>
+    <view class='title' style='margin-top:40rpx;'>XXX小程序</view>
+    <view class='title'>欢迎您</view>
+    <view class='desc' style='margin-top:50rpx;'>请允许我们获取您的基础信息(头像与昵称)</view>
+    <view class='desc'>您的信息和数据将受到保护</view>
+    <button open-type='getUserInfo' class='getuserinfo' bindgetuserinfo="getUserinfo">
+        <image src='/static/icon/weixin.png'></image>
+        <view>微信授权登录</view>
+    </button>
+    <button open-type='contact' class='contact' hover-class='none'>联系客服</button>
+</view>

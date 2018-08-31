@@ -1,0 +1,4 @@
+<view>
+    <view>我是页面1</view>
+    <navigator url="/pages/index2/index2">跳转页面2</navigator>
+</view>
